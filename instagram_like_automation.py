@@ -23,8 +23,8 @@ while a < 1000:
 	# Just first 7 photos have regular xpaths. So refresh is required. 
 	b = 1
 	while b < 8:
-		first_pic = browser.find_element_by_xpath("/html/body/span/section/main/section/div[1]/div[1]/div/article["+str(b)+"]/div[2]/section[1]/span[1]/button/span")
-		first_pic.click()		
+		like_photo = browser.find_element_by_xpath("/html/body/span/section/main/section/div[1]/div[1]/div/article["+str(b)+"]/div[2]/section[1]/span[1]/button/span")
+		like_photo.click()		
 		time.sleep(2)
 		b = b+1
 		time.sleep(2)
